@@ -23,6 +23,7 @@ fetchBreeds().then(data => {
   );
   // html.push(`<option value = "breeds123"> error </option>`);
   breeds.innerHTML = html;
+  document.querySelector('select').classList.remove('hidden');
 });
 
 breeds.addEventListener('change', ev => {
