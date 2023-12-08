@@ -1,0 +1,44 @@
+.loader {
+  display: block;
+  position: relative;
+  height: 25px;
+  width: 200px;
+  background: #fff;
+  overflow: hidden;
+}
+.loader:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background: #ff3d00;
+  animation: 6s prog ease-in infinite;
+}
+@keyframes prog {
+  to {
+    width: 100%;
+  }
+}
+
+.cat-info {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.cat-info h2 {
+  width: 100vw;
+  text-align: center;
+  text-size-adjust: 70px;
+  text-decoration: underline;
+}
+.cat-info p {
+  width: 40vw;
+  text-align: left;
+  font-size: 18px;
+}
+.hidden {
+  display: none;
+}
