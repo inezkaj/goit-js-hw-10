@@ -1,0 +1,2 @@
+.loader{background:#fff;width:200px;height:25px;display:block;position:relative;overflow:hidden}.loader:after{content:"";background:#ff3d00;width:0;height:100%;animation:6s ease-in infinite prog;position:absolute;top:0;left:0}@keyframes prog{to{width:100%}}.cat-info{flex-flow:wrap;gap:20px;display:flex}.cat-info h2{text-align:center;text-size-adjust:70px;width:100vw;text-decoration:underline}.cat-info p{text-align:left;width:40vw;font-size:18px}.hidden{display:none}
+/*# sourceMappingURL=index.6dc40d86.css.map */
